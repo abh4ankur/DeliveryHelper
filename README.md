@@ -10,14 +10,7 @@ OUTPUT:
 PRE-REQUISITES: 
 Below python libraries needs to be installed using pip or brew .
 
-import googlemaps
-import matplotlib.pyplot as plt
-from geopy.distance import geodesic
-from matplotlib.offsetbox import AnnotationBbox, OffsetImage
-import numpy as np 
-import pandas as pd
-import os 
-import requests 
+pip install googlemaps matplotlib geopy numpy pandas requests os
 
 EXECUTE:
 Execute main.py and it should open a new window with scatterplot.
